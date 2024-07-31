@@ -1,0 +1,129 @@
+.register{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 2em;
+  background-color: #85aba0c7;
+  
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  align-items: center;
+  justify-content: space-around;
+  height: min-content;
+  width: 80vw;
+  box-shadow: 0.7em 0 0.8em rgba(2, 73, 89, 1);
+}
+.container{
+  width: 50%;
+  margin: 2em;
+  padding: 3em;
+  justify-items: center;
+  align-content: flex-start;
+  height: 100%;
+  max-height: 60vw;
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: -0.4em 0 0.5em rgba(1, 45, 63, 1);
+}
+.logo{
+  align-content: center;
+  justify-content: center;
+  margin:1em;
+  padding: auto;
+  img{
+    border-radius: 50%;
+    image-rendering: optimizeQuality;
+  }
+}
+.navlink {
+  background-color: rgb(105, 168, 168);
+  color: rgb(1, 33, 63); 
+  text-decoration: none;
+  display: inline-block;
+  
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+  /* font-size:12pt; */
+}
+.navlink:hover {
+  background-color: rgb(85, 142, 142);
+}
+.navlink[type="submit"] {
+    background-color: rgb(105, 168, 168);
+    color: rgb(1, 33, 63);
+    text-decoration: none;
+    display: inline-block;
+    
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .navlink[type="submit"]:hover {
+    background-color: rgb(85, 142, 142);
+  }
+.options{
+  padding: 0.5em;
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 3px  grey;
+  border-radius: 10px;
+  box-shadow: -0.4em 0 0.5em rgba(1, 45, 63, 1);
+  min-width: min-content;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.option{
+  margin: 1em;
+  height: 30px;
+  padding: 0;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: end;
+  }
+  
+.label {
+  margin:1.5em 0 1em 0;
+  font-weight: bold;
+}
+  
+.input {
+  padding: 8px;
+  border: 1px solid #01fe12;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 30vw;
+  max-width: 300px;
+}
+.errorIn{
+  padding: 8px;
+  border: 1px solid #fe0101;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 30vw;
+  max-width: 300px;
+}
+.error {
+  color: #e84a4a;
+  font-size: 12px;
+  margin-top: 4px;
+}
+ 

@@ -1,0 +1,50 @@
+.column{
+  width: 10vw;
+  margin: 1px;
+  padding: 0.5em;
+  text-align: center;
+  align-content: center;
+  border-left: dotted 1px grey;
+  border-right: dotted 1px grey;
+}
+.navlink {
+  background-color: rgb(105, 168, 168);
+  color: rgb(1, 33, 63); 
+  text-decoration: none;
+  display: inline-block;
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+}
+.navlink:disabled{
+  background-color: rgb(142, 85, 85);
+}
+.navlink:hover {
+  background-color: rgb(142, 85, 85);
+}
+.navlink[type="submit"] {
+    background-color: rgb(105, 168, 168);
+    color: rgb(1, 33, 63);
+    text-decoration: none;
+    display: inline-block;
+    
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .navlink[type="submit"]:hover {
+    background-color: rgb(142, 85, 85);
+  }
+  .navlink[type="submit"]:active {
+    background-color: rgb(142, 85, 85);
+  }
